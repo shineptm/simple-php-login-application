@@ -1,0 +1,161 @@
+.bg1{
+    background-repeat:no-repeat;
+
+}
+.msgDisplay{
+	display: inline-block;
+	width: 500px;
+	height:5px;
+}
+span{
+display: inline-block;
+  height: 65px;
+  border-top: 0px;
+  border-top: 55px;
+}	
+.headertop{
+	
+	color:navy;
+	font-family:Verdana;
+	font-size:16px;
+	width:100%;
+	border-radius:5px;
+	height:60px;
+	
+}
+
+nav{
+	float: left;
+	text-decoration:none;
+}
+
+.content{
+	font-family:Verdana;
+    border-style:none;
+}
+.rightsection{
+    font-family:Verdana;                                                                       
+	float:right;
+	border-style:none;
+
+}
+.imgclass{
+	border-radius:10px;
+    float: left;
+    padding: 0 20px 20px 0;
+	
+}
+.bottom{
+	color:black;
+	background-color:#8374ad;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:20px;
+	float:right;
+	width:100%;
+	border-style:double;
+	border-radius:10px;
+	text-align:center;
+    bottom:0;
+	
+}
+
+.table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td1, .th1 {
+    border: 0px solid #d7d032;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.tr1:nth-child(even) {
+    background-color: #f8f8c4;
+	
+}
+
+.tr1:nth-child(odd) {
+    background-color: #b6c5ab;
+}
+
+
+ul{
+	padding: 0;
+	list-style: none;
+	background: #f2f2f2;
+}
+
+ul li{
+	display:inline-block;
+	position:relative;
+	line-height:5px;
+	text-align:left;
+}
+
+ul li a{
+	display: block;
+	padding: 8px 25px;
+	color: #333;
+	text-decoration: none;
+}
+
+ul li a:hover{
+	color: #fff;
+	background: #939393;
+}
+
+ul li ul.dropdown{
+	min-width: 100%;   /* Set style for the dropdown */
+	background: #f2f2f2;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+}
+
+ul li:hover ul.dropdown{
+	display: block; /* Display the dropdown */
+
+}
+
+ul li ul.dropdown li{
+	display: block;
+
+}
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+	//white-space: nowrap;
+}
+li {
+    float: left;
+	//display: inline-block;
+	
+}
+#hidden {
+  display: none;
+}
+#visible:hover + #hidden {
+  display: block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+*/
